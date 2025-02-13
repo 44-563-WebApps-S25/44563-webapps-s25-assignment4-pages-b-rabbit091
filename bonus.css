@@ -1,0 +1,41 @@
+/* Style for the Bonus Page */
+.bonus {
+    text-align: center;
+    font-size: 20px;
+    color: #222;
+    margin: 20px;
+}
+
+/* Style for images */
+.bonus img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #555;
+}
