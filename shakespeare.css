@@ -1,0 +1,79 @@
+/* Shakespeare Play Styles */
+
+/* General speech styling */
+.speech {
+    font-family: "Times New Roman", serif;
+    font-size: 16px;
+    color: black;
+}
+
+/* Stage direction styling */
+.stage-direction {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #f0f0f0;
+    font-style: italic;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Hover effect for stage directions */
+.stage-direction:hover {
+    background-color: #d3d3d3;
+    color: #333;
+}
+
+/* Character name styling */
+.name {
+    font-family: "Georgia", serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+/* Character-specific styles */
+.countess {
+    color: darkred;
+}
+
+.bertram {
+    color: navy;
+}
+
+.lafeu {
+    color: darkgreen;
+}
+
+.helena {
+    color: purple;
+}
+
+.casting {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+    font-family: "Times New Roman", serif;
+}
+
+.casting th, .casting td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.casting th {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.casting tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.casting tr:hover {
+    background-color: #c2c2c2;
+    color: black;
+}
